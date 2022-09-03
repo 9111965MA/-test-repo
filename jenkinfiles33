@@ -8,7 +8,7 @@ pipeline{
             }
             stage('Make Files'){
                 steps{
-                    sh "touch ~/jenkins-tutorial11-test/file1 ~/jenkins-tutorial-test11/file2"
+                    sh "touch ~/jenkins-tutorial11-test/file1 ~/jenkins-tutorial11-test/file2"
                 }
             }
         }

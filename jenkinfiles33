@@ -11,5 +11,10 @@ pipeline{
                     sh "touch ~/jenkinfiles33-tutorial11/file1 ~/jenkinfiles33-tutorial11/file2"
                 }
             }
+            stage('Make Files'){
+                steps{
+                    sh "touch ~/jenkinfiles33-tutorial11/file1 ~/jenkinfiles33-tutorial11/file2"
+                }
+            }
         }
 }
